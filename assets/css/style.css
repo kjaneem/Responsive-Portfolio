@@ -266,8 +266,8 @@ input[type=submit] {
     }
 
     a {
-      width: 100px;
-      align: center;
+      width: 180px;
+      text-align: center;
     }
 
     #main-container {
