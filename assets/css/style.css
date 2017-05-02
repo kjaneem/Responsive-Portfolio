@@ -156,6 +156,11 @@ h3,
   border: 1px solid #ddd;
 }
 
+#techdeflink {
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
 /* portfolio page */
 
 .work {
@@ -238,10 +243,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-#techdeflink {
-  color: #4aaaa5;
-  font-weight: bold;
-}
+
 
 /* Write the media queries here */
 
@@ -252,12 +254,11 @@ input[type=submit] {
 */
 
 @media only screen and (max-width: 640px) {
-
      
     #logo,
     nav,
     h1,
-    img,
+    img.auth-image,
     p,
     .sidebar,
     footer     {
@@ -268,10 +269,19 @@ input[type=submit] {
       width: 100px;
       align: center;
     }
+  
+    #main-container {
+      align: center;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 20px;
+      padding: 10px 10px;
+    }
 
     .sidebar {
       float: left;
     }
+
 }
 
 @media only screen and (max-width: 760px) and (min-width: 641px) {
