@@ -294,8 +294,8 @@ input[type=submit] {
 
      .sidebar {
       float: left;
+      max-width: 640px;
     }
-
 }
 
 @media only screen and (max-width: 768px) and (min-width: 641px) {
