@@ -258,15 +258,16 @@ input[type=submit] {
     #logo,
     nav,
     h1,
+    h2,
     img.auth-image,
     p,
     .sidebar,
+    #connect,
     footer     {
-                width: 100%
+                width: 100%;
     }
 
     #masthead {
-      /*display: none;*/
       z-index: 0;
     }
 
@@ -287,14 +288,9 @@ input[type=submit] {
       font-size: 12px;
       font-weight: bold;
       line-height: 20px;
-      /*padding: 5% 5%;*/
     }
 
-    .main-section {
-      
-    }
-
-    .sidebar {
+     .sidebar {
       float: left;
     }
 
