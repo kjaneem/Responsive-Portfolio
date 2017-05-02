@@ -236,7 +236,7 @@ textarea {
 
 input[type=submit] {
   padding: 10px 30px;
-  font-size: 18px;
+  font-size: 12px;
   color: #fff;
   cursor: pointer;
   background: #4aaaa5;
@@ -253,6 +253,8 @@ input[type=submit] {
 }
 */
 
+/* About Me Page - Media Queries */
+
 @media only screen and (max-width: 640px) {
      
     #logo,
@@ -264,7 +266,7 @@ input[type=submit] {
     .sidebar,
     #connect,
     footer     {
-                width: 100%;
+      width: 100%;
     }
 
     #masthead {
@@ -296,13 +298,26 @@ input[type=submit] {
 
 }
 
-@media only screen and (max-width: 760px) and (min-width: 641px) {
+@media only screen and (max-width: 768px) and (min-width: 641px) {
     
     masthead,
-    img,
     p,
     footer     {
-                width: 100%
+      width: 100%
+    }
+
+    nav {
+      margin-right: 5%;
+    }
+
+    #main-container {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 24px;
+    }
+
+    img.auth-image {
+      width: 50%;
     }
   
 }
