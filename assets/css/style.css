@@ -290,9 +290,10 @@ input[type=submit] {
       max-width: 640px;
     }
 
-      img.work {
-      width: 50%;
-    }
+    /* Portfolio stuff*/
+      .work {
+      width: 580px;
+      }
 
 }
 
