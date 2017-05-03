@@ -243,16 +243,8 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-
 /* Write the media queries here */
-
-/* media queries format
-@media not|only mediatype and (expressions) {
-    CSS-Code;
-}
-*/
-
+/* 980, 768, 640 */
 /* About Me Page - Media Queries */
 
 @media only screen and (max-width: 640px) {
@@ -316,10 +308,34 @@ input[type=submit] {
       line-height: 24px;
     }
 
+    .main-section {
+      max-width: 768px;
+    }
+
     img.auth-image {
       width: 50%;
     }
+
+    .sidebar {
+      float: left;
+      max-width: 768px;
+    }
   
 }
+
+/* Is is possible to code 1 media query for this ? 
+
+@media only screen and (max-width: 960px) and (min-width: 640px) {
+
+  #logo,
+  nav,
+  img.auth-image,
+  .sidebar {
+    min-width: 640px;
+    max-width: 960px;
+  }
+}
+
+*/
 
 
