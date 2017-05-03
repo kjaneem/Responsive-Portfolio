@@ -327,7 +327,16 @@ input[type=submit] {
       float: left;
       max-width: 768px;
     }
-  
+
+    /* Portfolio stuff */
+ 
+    .work {
+      margin-top: 20px;
+      margin-right: 25px;
+      margin-bottom: 20px;
+      margin-left: 25px;
+    }
+    
 }
 
 
