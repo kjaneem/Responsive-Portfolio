@@ -247,6 +247,7 @@ input[type=submit] {
 /* 980, 768, 640 */
 /* About Me Page - Media Queries */
 
+
 @media only screen and (max-width: 640px) {
      
     #logo,
@@ -327,7 +328,6 @@ input[type=submit] {
     }
   
 }
-
 
 
 /* Is is possible to code 1 media query for this ? 
